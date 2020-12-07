@@ -2,11 +2,11 @@
 public class Chien {
 	
 	String nom;
-	void aboyer() {
+	public void aboyer() {
 		System.out.println(nom+" dit wwaaaarf.  Je mange de la viande");
 	}
 	
-	void mange() {
+	public void mange() {
 		System.out.println(nom+" dit wwaaaarf.  Je mange de la viande");
 	}
 
@@ -14,10 +14,14 @@ public class Chien {
 	public static void main(String[] args) {
 		
 			Chien Rex=new Chien();
+			
 			Rex.nom="Rex";
 		    Rex.aboyer();
 		    Rex.mange();
+		    
+		    
 		    Chien Max=new Chien();
+		    
 		    Max.nom="Max";
 		    Max.aboyer();
 		    Max.mange();

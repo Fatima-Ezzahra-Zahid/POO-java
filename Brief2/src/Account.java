@@ -9,7 +9,7 @@ public class Account {
 	
 	public  double  calculerInterer(double tauxInteret) {  //ex4 
 		
-		double SoldInteret=sold*tauxInteret/100;
+		double SoldInteret=sold*tauxInteret*30/36500;
 		return SoldInteret;
 		
 	}

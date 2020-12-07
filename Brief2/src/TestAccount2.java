@@ -6,13 +6,13 @@ public class TestAccount2 {
 	        myObj.setNom("Karimi Khalid");
 
 	        Account2 myObje = new Account2();
-	        myObje.setAdresse(" Safi ");
+	        myObje.setAdresse("Safi");
 
 	        Account2 myObjec = new Account2();
 	        myObjec.setSolde( 14765.8 );
 	        
 	        System.out.println(myObj.getNom() +" habite à " + myObje.getAdresse()+" - infos solde "+myObjec.getSolde());
-	        myObjec.retirer(150000 );
+	        myObjec.retirer(150000);
 
 	}
 
