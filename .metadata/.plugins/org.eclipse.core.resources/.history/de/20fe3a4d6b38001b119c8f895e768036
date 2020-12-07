@@ -1,0 +1,23 @@
+
+public class Chien {
+	
+	String nom;
+	void aboyer() {
+		System.out.println("wwaaaarf.  Je mange de la viande");
+	}
+	
+	void mange() {
+		System.out.println("wwaaaarf.  Je mange de la viande");
+	}
+
+
+	public static void main(String[] args) {
+		
+			Chien Rex=new Chien();
+			Rex.nom="Rex";
+		    Rex.aboyer();
+		    Rex.mange();
+			
+	}
+
+}

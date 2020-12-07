@@ -1,0 +1,24 @@
+
+public class Chien2 {
+	
+	
+	String nom;
+	void aboyer(String sens) {
+		System.out.println(nom+""+sens);
+	}
+	
+	void mange(String qlqc ) {
+		System.out.println(nom+""+qlqc);
+	}
+
+
+	public static void main(String[] args) {
+		
+		Chien2 Rex=new Chien2();
+		Rex.nom="Rex";
+	    Rex.aboyer("boooooooooooooo");
+	    Rex.mange("hhhhhhhhhhhhhhhhhh");
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Chien2 {
+	
+	
+	String nom;
+	void aboyer(String sens) {
+	}
+	
+	void mange(String qlqc ) {
+	}
+
+
+	public static void main(String[] args) {
+		
+		Chien2 Rex=new Chien2();
+		Rex.nom="Rex";
+	    Rex.aboyer("boooooooooooooo");
+		
+	}
+
+}
