@@ -2,7 +2,7 @@ package arcticle;
 
 public class ArticleEnSold extends Article {
 	
-	int PourcantageRemise;
+	protected int PourcantageRemise;
 
 	public ArticleEnSold(String n, double prix,int PourcantageRemise) {
 		super(n, prix);

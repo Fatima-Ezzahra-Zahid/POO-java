@@ -12,8 +12,10 @@ public class Test {
 		employe2.afficherInfosClient();
 		
 		
+		
 		Employe employe3=new Employe("Sbai","Fouad","Salé",2006);
 		employe3.afficherInfosClient();
+		
 	}
 
 }

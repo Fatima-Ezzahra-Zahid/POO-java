@@ -1,7 +1,7 @@
 package banque;
 
 public class CompteEpargne extends Compte {
-	int tauxInteret;
+	protected int tauxInteret;
 
 	public CompteEpargne(int Nm, double solde,int taux) {
 		super(Nm,solde);

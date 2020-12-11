@@ -53,7 +53,7 @@ public class TestCompte {
 						 }
 					 }
 					 else {
-						 System.out.println("votre solde doit etre superier ou egale 200 DH ");
+						 System.out.println("votre solde doit etre supérieur ou egale 200 DH ");
 					 }
 					 
 					 
